@@ -1,0 +1,7 @@
+{
+  "name": "repasando",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
