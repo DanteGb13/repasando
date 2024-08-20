@@ -12,7 +12,7 @@ export class ProductosPage implements OnInit {
 //define la lista de productos con sus respectivas imágenes y descripciones. 
   productos = [
     {
-      nombre: 'OnePice',
+      nombre: 'OnePiece',
       descripcion: 'narra las aventuras de Monkey D. Luffy y su tripulación mientras buscan el tesoro legendario para que Luffy se convierta en el Rey de los Piratas.',
       imagen: 'assets/img/onepice.jpg',
       precio: 10000
@@ -21,7 +21,7 @@ export class ProductosPage implements OnInit {
       nombre: 'Superman',
       descripcion: 'Superman es un superhéroe de DC Comics, un extraterrestre de Krypton con poderes sobrehumanos, que protege la Tierra como Clark Kent.',
       imagen: 'assets/img/superman.jpg',
-      precio: 20000
+      precio: 200000
     },
     {
       nombre: 'Batman',
