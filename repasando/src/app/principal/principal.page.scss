@@ -1,10 +1,58 @@
-//estilos al titulo y al banner
+ion-content {
+  --background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(51, 4, 4));
+  height: 100%;
+  width: 100%;
+}
+
 .header {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .banner {
-    margin-top: 20px;
-  }
-  
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  margin-right: 10px;
+}
+
+.site-title {
+  font-family: 'Trebuchet MS', 'Verdana', 'Tahoma', sans-serif;
+  font-size: 24px;
+  color: white; /* Ajusta el color según el diseño de tu página */
+}
+
+.banners {
+  margin-top: 70px; /* Ajusta este valor para cambiar la distancia desde el título */
+  text-align: center; /* Centra el banner horizontalmente */
+}
+
+.text {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Usa la misma fuente que el título */
+  font-size: 20px; /* Tamaño grande para el texto */
+  margin-top: 20px; /* Espacio entre el banner y el texto */
+  color: #ffffff; /* Color del texto */
+  line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+  text-align: center; /* Centra el texto debajo del banner */
+}
+
+
+
+
+
+ion-footer {
+  --background: #f8f8f8; /* Color de fondo del pie de página */
+  --color: #333; /* Color del texto */
+}
+
+ion-toolbar {
+  --background: #333; /* Color de fondo de la barra del pie de página */
+  --color: #fff; /* Color del texto en la barra del pie de página */
+}
+
+ion-buttons {
+  margin-left: auto; /* Mueve los botones al final de la barra */
+}
+
+ion-button {
+  --color: #fff; /* Color del ícono y texto del botón */
+  --background: transparent; /* Fondo transparente para los botones */
+}
